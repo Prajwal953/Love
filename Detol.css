@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+
+.section {
+    text-align: center;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.button1 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+}
+
+.button2 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+}
+.button3{
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+}
+.button3:hover {
+    position: relative;
+    left: 200px; /* Adjust as needed */
+    transition: left 0.3s ease; /* Add smooth transition effect */
+}
+
